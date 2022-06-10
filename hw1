@@ -1,3 +1,11 @@
-dictionary = {"key":"value", "integers":34, "colors":{"Tabitha":"red", Julieta:"pink"}, "list":[1, 2, 3,]} #dictionary contains multiple data structures
-list = [1, 2, -3, "hello",[4 ,5]] #list containing multiple data structures
-dictionary["key"]
+dictionary = {"key":"value", "integers":34, "colors":{"Tabitha":"red", Julieta:"pink"}, "list":[1, 2, 3,]} #dictionary contains multiple data structures, using {}
+list = [1, 2, -3, "hello",[4 ,5]] #list containing multiple data structures, using []
+
+print(dictionary["key"]) #retrieviing using value
+print(list[0]) #retrieving using indexing
+
+list.sort() #ordering the list
+dictionary.sort() #won't work becuase dictionaries cant be ordered
+
+list.pop() list.append(6) list[0]=100 #lists are mutable
+dictionary["fruits"]=6 del dictionary["fruits"] #dictionaries are also mutable
