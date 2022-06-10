@@ -1,0 +1,3 @@
+dictionary = {"key":"value", "integers":34, "colors":{"Tabitha":"red", Julieta:"pink"}, "list":[1, 2, 3,]} #dictionary contains multiple data structures
+list = [1, 2, -3, "hello",[4 ,5]] #list containing multiple data structures
+dictionary["key"]
